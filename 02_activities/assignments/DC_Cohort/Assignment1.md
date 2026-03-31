@@ -207,7 +207,14 @@ Link if you encounter a paywall: https://archive.is/srKHV or https://web.archive
 
 Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
 
+There are a lot of value systems that are in databases/data systems that I encounter in my day-to-day life. Often, I do not think of these systems but after reading this article, these systems are so important in how databases are created and how society functions. 
 
-```
-Your thoughts...
-```
+The most immediate example I can think of is for any government id or identity/account creation. Most databases include only legal names and binary gender fields (although this has now changed to X for example on passports to include everyone who does not fit into this binary system). This is still stringent as there could be more flexibility for chosen names or even within in the non-binary category, X does not encompass all of the differences within this category. 
+
+Similarly, for a lot of surveys I complete. Often race/ethnicity options have an 'Other' category, income brackets are centered around middle-class assumptions, marital status does not account for common law or other non-traditional relationships etc. These are all categories, while improving, could be expanded on instead of provided binary options. 
+
+Another example I really thought about was banking. Historically, until the late 70s, women could not open a credit card in their own name unless there was a male cosign. This would have impacted databases and significant reform would have had to happen to ensure the system would allow me to bank as I do today. 
+
+Lastly for healthcare. A lot of diagnostic tools and symptoms are predominantly based on biological male research data. If medical records and past databases are used to train machine learning tools for improving future healthcare systems, this could be grossly misinterpreting the biological female category or any other non-binary category. 
+
+This article has made me realize that all of these value systems and databases are originally designed around a "normal" or "default" user. When the user differs from this default, it can have large consequences on how the database functions. As technology advances, we need to be aware that not everyone and not every database can assume a default user.

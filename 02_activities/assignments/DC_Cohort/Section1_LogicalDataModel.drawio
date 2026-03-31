@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="E-oH3G7A4SgckM9fV9Jp">
+    <mxGraphModel dx="784" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2gDZxn3HT3ftujqXDELD-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="150" x="480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-1" parent="2gDZxn3HT3ftujqXDELD-3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;product_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;product_name&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;product_size&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;product_category_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;product_qty_type&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-2" parent="2gDZxn3HT3ftujqXDELD-3" style="rounded=0;whiteSpace=wrap;html=1;" value="product" vertex="1">
+          <mxGeometry height="20" width="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-7" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="200" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-10" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="240" width="170" x="210" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-11" parent="2gDZxn3HT3ftujqXDELD-10" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;product_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;vendor_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;market_date&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;customer_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;quantity&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;cost_to_customer_per_qty&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;transaction_time&lt;/div&gt;" vertex="1">
+          <mxGeometry height="211.76470588235296" width="170" y="28.23529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-12" parent="2gDZxn3HT3ftujqXDELD-10" style="rounded=0;whiteSpace=wrap;html=1;" value="customer_purchases" vertex="1">
+          <mxGeometry height="28.23529411764706" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="450" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2gDZxn3HT3ftujqXDELD-29" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CSS_Vol_2-2665/infinity-569.svg" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="210" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="T7FpVxOjFvGkZqPOFmhY-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Farmers Market Logical Model (Partial)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;One-to-Many Relationship&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
