@@ -55,11 +55,30 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
-```
-Your answer...
-```
+Type 1 will overwrite existing data with new data whereas Type 2 will retain changes by creating a new row for changes and will keep the full history. 
 
-***
+For example for Type 1 under customer address you could have the following rows 
+
+address_id
+customer_id
+street
+city            
+province
+postal_code
+country
+
+But, for Type 2 you could have the following rows under customer address. 
+
+address_id
+customer_id
+street
+city            
+province
+postal_code
+country
+start_date 
+end_date
+is_current
 
 ## Section 2:
 You can start this section following *session 4*.
@@ -189,7 +208,11 @@ Read: Boykis, V. (2019, October 16). _Neural nets are just people all the way do
 
 Consider, for example, concepts of labour, bias, LLM proliferation, moderating content, intersection of technology and society, ect. 
 
+There are a lot of ethical concepts touched upon in this story. As discussed, briefly in the slides (Slides #6 in the DSI course), human labour is one of the largest contributors to the development of any machine learning or large database. Much of the labour (for example in the article discussing humans selecting through thousands of images for training ImageNet) is the labour that is often invisible. We hear about the codes that are developed or the way developers are making the AI systems smarter and working faster, but this is often due to human input helping train the models. The individuals training the models are probably not paid as high as the developers themselves.
 
-```
-Your thoughts...
-```
+In addition, the development of machine learning or databases are built on human biases. Much like the reflection from Assignment 1, humans have pre-conceptions and the choices/labels/determinations they have can influence how the model functions or how the databases are setup (for example databases only allowing options of male vs female). This is critical because for a system that is supposed to be "smarter" and allow us to save time seems to be built on a system that is already prone to unfairness and biases that may inform classifications that are unfair.  Unless this is addressed fully, we cannot depend on machine learning and AI as an all-knowing entity. 
+
+Furthermore, one of my concerns is how anonymous AI models can be. If there is a clear bias or problem in the program and if the system is built on human-inputted information where does the blame go? How can companies moderate content and ensure it is safe/reliable without bias. Specifically, the example of ImageNET having unsafe or socially inappropriate categories that were labelled. My concern with this is how to ensure the models we are training currently account for that potential issue. Another ethical concern is regarding data privacy and consent. Any image or content can be put into these models. How is it controlled and how is consent provided/revoked? Does digital consent exist at this stage with the training of these models? Especially in the example of ImageNet where they were pulling images from the internet to train their model. 
+
+Lastly, reading this article I was struck about how robots struggled to fold laundry and how what we think are menial tasks are incredibly difficult for these models. At the end of the day, the brains behind these processes are not AI, but rather humans themselves. For something that is seen as such a gold standard, this article really highlighted and brough to awareness for me that a lot of these advances are built on the work of many who may not be adequately recognized.
+
